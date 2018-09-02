@@ -1,0 +1,9 @@
+mvn archetype:generate \
+    -DarchetypeArtifactId=google-cloud-dataflow-java-archetypes-examples \
+    -DarchetypeGroupId=com.google.cloud.dataflow \
+    -DarchetypeVersion=2.1.0 \
+    -DgroupId=com.example \
+    -DartifactId=dataflow-intro \
+    -Dversion="0.1" \
+    -DinteractiveMode=false \
+    -Dpackage=com.example
